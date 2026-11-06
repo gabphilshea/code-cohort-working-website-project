@@ -16,29 +16,23 @@ include 'includes/head.php';
             <div id="featureCarousel" class="carousel slide my-4" data-bs-ride="carousel" >
                 <div style="border-radius: 16px" class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="p-5 text-center" style="background-color: black">
-                            <i class="bi bi-bar-chart-fill fs-5"></i>
-                            <h4>Code Cohort</h4>
-                            <h5>Efficiency</h5>
-                            <p>Make your coding learning journey seamless.</p>
+                        <div class="p-5 text-white text-center" style="background-color: #301934">
+                            <h4 style="color: #9013FEFF">Efficiency</h4>
+                            <p>Code Cohort can make your coding learning journey seamless.</p>
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-color: black">
+                    <div class="carousel-item" style="background-color: #301934">
                         <div class="p-5 text-white text-center">
-                            <i class="bi bi-lock-fill fs-4"></i>
-                            <h4>Code Cohort</h4>
-                            <h5>Convenience</h5>
-                            <p>One-stop access to learning materials.</p>
+                            <h4 style="color: #9013FEFF">Convenience</h4>
+                            <p>Code Cohort is a one-stop access to learning materials.</p>
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-color: black">
-                        <div class="p-5 text-center">
-                            <i class="bi bi-envelope-fill fs-4"></i>
-                            <h4>Code Cohort</h4>
-                            <h5>Explore</h5>
-                            <p>Execute your first program.</p>
+                    <div class="carousel-item" style="background-color: #301934">
+                        <div class="p-5 text-white text-center">
+                            <h4 style="color: #9013FEFF">Explore</h4>
+                            <p>Execute your first program with Code Cohort!</p>
                         </div>
                     </div>
 
