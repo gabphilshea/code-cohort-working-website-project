@@ -32,3 +32,6 @@
         updateIcon(document.documentElement.getAttribute("data-theme"));
     </script>
 </header>
+<body>
+     <div id="bg-root"></div>
+</body>

@@ -21,6 +21,10 @@ body {
     margin: 0;
 }
 
+   #bg-root { position: fixed; inset: 0; z-index: -1; background: #191414; }
+   body { background: transparent; }
+   [data-theme="light"] #bg-root { display: none; }
+
 .theme-toggle-wrap {
     display: flex;
     justify-content: flex-end;

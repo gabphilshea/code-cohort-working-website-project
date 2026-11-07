@@ -19,7 +19,8 @@
 
     <!--style.css-->
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="assets/bg.css">
+    <script type="module" src="assets/bg.js"></script>
 
     <title><?= $pageTitle ?></title>
     <script>
