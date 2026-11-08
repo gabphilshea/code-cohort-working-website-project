@@ -1,10 +1,11 @@
 <header class="align-items-center">
     <a href="index.php"><h1 class="fs-6 m-0 medium" style="color: #9013FEFF">Code Cohort</h1></a>
+    <?php $current = basename($_SERVER['PHP_SELF']); ?>
     <ul class="d-flex gap-4 list-unstyled m-0 ms-4">
-        <a href="index.php"><li class="animated-link">Home</li></a>
-        <a href="tutorials.php"><li class="animated-link">Tutorials</li></a>
-        <a href="playground.php"><li class="animated-link">Playground</li></a>
-        <a href="contact.php"><li class="animated-link">Contact Us</li></a>
+        <a href="index.php"><li class="animated-link <?= $current === 'index.php' ? 'active' : '' ?>">Home</li></a>
+        <a href="tutorials.php"><li class="animated-link <?= $current === 'tutorials.php' ? 'active' : '' ?>">Tutorials</li></a>
+        <a href="playground.php"><li class="animated-link <?= $current === 'playground.php' ? 'active' : '' ?>">Playground</li></a>
+        <a href="contact.php"><li class="animated-link <?= $current === 'contact.php' ? 'active' : '' ?>">Contact Us</li></a>
     </ul>
 
     <div class="theme-toggle-wrap ms-auto">

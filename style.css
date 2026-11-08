@@ -71,6 +71,10 @@ a {
     color: inherit;
 }
 
+iframe {
+    color-scheme: normal;
+}
+
 .page-container {
     display: flex;
     gap: 25px;
@@ -84,7 +88,7 @@ a {
 aside {
     background-color: black;
     color: white;
-    border-radius: 15px;
+    border-radius: 16px;
     padding: 25px;
     margin: 15px 10px 5px 20px;
     font-family: inherit;
@@ -101,6 +105,14 @@ aside {
 
 #featureCarousel {
     width: 90%;
+}
+
+.gettingstarted-container {
+    backdrop-filter: blur(6px); 
+    background-color: rgba(0, 0, 0, 0.86);  
+    -webkit-backdrop-filter: blur(6px); 
+    border-radius: 16px;
+    padding: 25px;
 }
 
 .videoembed-grid {
@@ -161,21 +173,41 @@ aside {
   color: black;
 }
 
+.animated-link.active {
+  color: #7c3aed; 
+}
+
+
 .compiler-container {
     display: flex;
 }
 
-.compiler-embed {
+.playground-container {
   width: 70%;
-  height: 90em;
-  max-width: 900px;   
+  height: auto;
+  max-width: 900px;  
+  backdrop-filter: blur(6px); 
+  background-color: rgba(0, 0, 0, 0.86);  
+  -webkit-backdrop-filter: blur(6px); 
+  padding: 25px; 
+  border-radius: 16px;
+  margin: 15px 30px 7px 40px;
   
 }
 
-.compiler-embed iframe {
+.playground-container iframe {
     width: 100%;
     height: 650px;   
     border: 0;
+}
+
+.playground-spotify {
+    margin: 25px 10px 5px 10px;
+}
+
+#spotify-podcast {
+    display: block;
+    height: 152px;
 }
 
 footer {

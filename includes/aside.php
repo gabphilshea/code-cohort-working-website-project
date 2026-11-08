@@ -1,4 +1,4 @@
-<aside>
+<aside class="col-md-2 sidebar">
     <hr>
     <br>
     <h2 style="color: #9013FEFF" class="fs-5">Languages</h2>
@@ -10,5 +10,6 @@
     <a href="learnphp.php"><h4 class="animated-link h6">Learn PHP</h4></a>
     <a href="learnmySQL.php"><h4 class="animated-link h6">Learn MySQL</h4></a>
     <br><br>
-    <h2 style="color: #9013FEFF" class="fs-5">YouTube Channels</h2>
+    <h2 style="color: #9013FEFF" class="fs-5">Docs & References</h2>
+    <h2 style="color: #9013FEFF" class="fs-5">Tip of the Day</h2>
 </aside>
