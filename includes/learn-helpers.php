@@ -10,11 +10,14 @@ function code($lang, $src) {
   echo '<pre class="learn-code"><code class="language-' . $lang . '">' . htmlspecialchars(trim($src)) . '</code></pre>';
 }
 function material($type, $label, $src = '') {
-  echo '<div class="col-md-6"><div class="learn-material"><h3 class="h6">' . htmlspecialchars($label) . '</h3>';
+  $col = ($type === 'quiz') ? 'col-12' : 'col-md-6';
+  echo '<div class="' . $col . '"><div class="learn-material"><h3 class="h6">' . htmlspecialchars($label) . '</h3>';
   if ($src === '') {
     echo '<p class="small mb-0">PLACEHOLDER: add a ' . $type . ' here.</p>';
   } elseif ($type === 'article') {
     echo '<a href="' . htmlspecialchars($src) . '" target="_blank" rel="noopener">Open article</a>';
+  } elseif ($type === 'quiz') {
+    echo '<iframe src="' . htmlspecialchars($src) . '" title="' . htmlspecialchars($label) . '" loading="lazy" style="width:100%; height:500px; border:0;"></iframe>';
   } else {
     $url = ($type === 'video') ? 'https://www.youtube.com/embed/' . $src : $src;
     echo '<div class="ratio ratio-16x9"><iframe src="' . htmlspecialchars($url) . '" title="' . htmlspecialchars($label) . '" loading="lazy" allowfullscreen></iframe></div>';

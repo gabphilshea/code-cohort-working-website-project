@@ -78,12 +78,11 @@ require_once 'includes/learn-helpers.php';
                 <h2 class="fs-5">Learning Materials</h2>
                 <div class="row g-3">
                     <?php
-                    material('video', 'Beginner course');
-                    material('video', 'SQL JOINs explained');
-                    material('article', 'Official docs (dev.mysql.com)');
-                    material('article', 'Practice problems (e.g. SQL exercises)');
-                    material('compiler', 'Online SQL playground');
-                    material('quiz', 'Quizlet flashcards');
+                    material('video', 'Beginner course', '5OdVJbNCSso');
+                    material('video', 'SQL JOINs explained', '9yeOJ0ZMUYw');
+                    material('article', 'Official docs (dev.mysql.com)', 'https://dev.mysql.com/doc/refman/8.4/en/');
+                    material('article', 'Practice problems (e.g. SQL exercises)', 'https://www.w3schools.com/mysql/mysql_exercises.asp');
+                    material('quiz', 'Quizlet flashcards', 'https://quizlet.com/350010955/match/embed?i=7es5bi&x=1jj1');
                     ?>
                 </div>
             </section>

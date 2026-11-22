@@ -92,12 +92,11 @@ require_once 'includes/learn-helpers.php';
                 <h2 class="fs-5">Learning Materials</h2>
                 <div class="row g-3">
                     <?php
-                    material('video', 'Beginner course');
-                    material('video', 'Quick tutorial');
-                    material('article', 'Official docs (dev.java)');
-                    material('article', 'Practice problems');
-                    material('compiler', 'Online compiler');
-                    material('quiz', 'Quizlet flashcards');
+                    material('video', 'Beginner course', 'eIrMbAQSU34');
+                    material('video', 'Quick tutorial', 'RRubcjpTkks');
+                    material('article', 'Official docs (dev.java)', 'https://dev.java/learn/');
+                    material('article', 'Practice problems', 'https://www.w3schools.com/java/java_exercises.asp');
+                    material('quiz', 'Quizlet flashcards', 'https://quizlet.com/219397650/match/embed?i=7es5bi&x=1jj1');
                     ?>
                 </div>
             </section>

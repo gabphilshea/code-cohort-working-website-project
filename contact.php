@@ -1,5 +1,21 @@
 <?php
 include 'includes/db.php';
+
+if (isset($_POST['submit'])) {
+    $name = trim($_POST['name']);
+    $message = trim($_POST['message']);
+
+    if ($name !== '' && $message !== '') {
+        $stmt = mysqli_prepare($conn, "INSERT INTO messages (name, message) VALUES (?, ?)");
+        mysqli_stmt_bind_param($stmt, "ss", $name, $message);
+        mysqli_stmt_execute($stmt);
+        mysqli_stmt_close($stmt);
+    }
+
+    header("Location: contact.php?posted=1");
+    exit;
+}
+
 $pageTitle = "Contact Us - Code Cohort";
 include 'includes/head.php';
 ?>
@@ -8,7 +24,7 @@ include 'includes/head.php';
     <?php include 'includes/header.php';?><br>
     <div class="page-container">
         <div class='addmessage-form'>
-            <h2>Add a New Message</h2>
+            <h2>Leave your feedbacks here!</h2><br>
 
             <form method="post" action="">
                 Name:  &nbsp;&nbsp;<input type="text" name="name" class="name-field" required><br><br>
@@ -17,25 +33,7 @@ include 'includes/head.php';
                 <input type="submit" name="submit" id="postmsg-button" value="Post Message">
             </form>
 
-            <?php
-            if (isset($_POST['submit'])) {
-                $name = $_POST['name'];
-                $message = $_POST['message'];
-
-                $stmt = mysqli_prepare($conn, "INSERT INTO messages (name, message) VALUES (?. ?)");
-                mysqli_stmt_bind_param($stmt, "ss", $name, $messsage);
-
-                if (mysqli_stmt_execute($stmt)) {
-                    echo "<p>Message posted successfully!</p>";
-                } else {
-                    echo "Error: " . mysqli_error($conn);
-                }
-                mysqli_stmt_close($stmt);
-            }
-            ?>
-
-
-            <section class='posted-messages'>
+            <div class='posted-messages'>
                 <?php
                 $sql = "SELECT * FROM messages ORDER BY date_posted DESC";
                 $result = mysqli_query($conn, $sql);
@@ -59,8 +57,17 @@ include 'includes/head.php';
                         echo "<p>No messages yet. Be the first to post!</p>";
                     }
                     ?>
-    </section>
+            </div>
         </div>
+
+        <section class="contact-container">
+            <h4>Reach out to us!</h4>
+            <ul>
+                <li>Email: contact@codecohort.com</li>
+                <li>Phone: +63 900 000 0000</Li>
+                <li>Address: 123 Rizal St., Legazpi City, Albay, Philippines 4500</li>
+            </ul>
+        </section>
     </div>
     <?php include 'includes/footer.php';?>
 

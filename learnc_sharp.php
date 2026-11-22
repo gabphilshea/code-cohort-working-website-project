@@ -78,12 +78,11 @@ require_once 'includes/learn-helpers.php';
                 <h2 class="fs-5">Learning Materials</h2>
                 <div class="row g-3">
                     <?php
-                    material('video', 'Beginner course');
-                    material('video', 'Quick tutorial');
-                    material('article', 'Microsoft Learn: C# docs');
-                    material('article', 'Practice problems');
-                    material('compiler', 'Online compiler');
-                    material('quiz', 'Quizlet flashcards');
+                    material('video', 'Beginner course', 'YrtFtdTTfv0');
+                    material('video', 'Quick tutorial', 'IFayQioG71A');
+                    material('article', 'Microsoft Learn: C# docs', 'https://learn.microsoft.com/en-us/dotnet/csharp/');
+                    material('article', 'Practice problems', 'https://www.w3schools.com/cs/cs_exercises.asp');
+                    material('quiz', 'Quizlet flashcards', 'https://quizlet.com/12649697/match/embed?i=7es5bi&x=1jj1');
                     ?>
                 </div>
             </section>

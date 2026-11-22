@@ -89,12 +89,11 @@ require_once 'includes/learn-helpers.php';
                     <h2 class="fs-6">Learning Materials</h2>
                     <div class="row g-3">
                         <?php
-                        material('video', 'Beginner course');
-                        material('video', 'Quick tutorial');
-                        material('article', 'cppreference.com');
-                        material('article', 'Practice problems');
-                        material('compiler', 'Online compiler');
-                        material('quiz', 'Quizlet flashcards');
+                        material('video', 'Beginner course', 'ZzaPdXTrSb8');
+                        material('video', 'Quick tutorial', 'RSDzvlXmQi4');
+                        material('article', 'cppreference.com', 'https://en.cppreference.com/w/');
+                        material('article', 'Practice problems', 'https://www.w3schools.com/cpp/cpp_exercises.asp');
+                        material('quiz', 'Quizlet flashcards', 'https://quizlet.com/35029781/match/embed?i=7es5bi&x=1jj1');
                         ?>
                     </div>
                 </section>

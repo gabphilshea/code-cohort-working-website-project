@@ -92,12 +92,11 @@ require_once 'includes/learn-helpers.php';
                     <h2 class="fs-5">Learning Materials</h2>
                     <div class="row g-3">
                         <?php
-                        material('video', 'Beginner course');
-                        material('video', 'PHP + MySQL tutorial');
-                        material('article', 'Official docs (php.net)');
-                        material('article', 'Practice problems');
-                        material('compiler', 'Online compiler');
-                        material('quiz', 'Quizlet flashcards');
+                        material('video', 'Beginner course', 'zZ6vybT1HQs');
+                        material('video', 'PHP + MySQL tutorial', '-1DTYAQ25bY');
+                        material('article', 'Official docs (php.net)', 'https://php.net/manual/en/getting-started.php');
+                        material('article', 'Practice problems', 'https://www.w3schools.com/php/php_exercises.asp');
+                        material('quiz', 'Quizlet flashcards', 'https://quizlet.com/5306714/match/embed?i=7es5bi&x=1jj1');
                         ?>
                     </div>
                 </section>

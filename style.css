@@ -1,3 +1,6 @@
+/*---Stylesheet for Code Cohort*/
+
+/*---General Rulesets---*/
 
 :root {
     --bg: #e4e5f1;
@@ -142,7 +145,7 @@ aside::-webkit-scrollbar {
 }
 
 
-/*----*/
+/*---INDEX---*/
 
 #featureCarousel {
     width: 90%;
@@ -316,9 +319,47 @@ aside::-webkit-scrollbar {
 }
 
 
+/*---LEARN PAGES---*/
+
+.learnpage-content {
+    margin: 15px 30px 20px 40px;
+    backdrop-filter: blur(6px); 
+    background-color: rgba(0, 0, 0, 0.86);  
+    -webkit-backdrop-filter: blur(6px); 
+    border-radius: 16px;
+    padding: 40px;
+    color: white;
+}
+
+.learn-page section { 
+    margin-bottom: 2.5rem; 
+}
+
+.learn-code { 
+    padding: 1rem; 
+    border-radius: .5rem; 
+    border: 1px solid rgba(127,127,127,.35); 
+    background: rgba(127,127,127,.12); 
+    color: inherit; 
+    overflow-x: auto; 
+}
+
+.learn-material { 
+    height: 100%; 
+    padding: 1rem; 
+    border: 1px solid rgba(168,85,247,.6); 
+    border-radius: .5rem; 
+}
+
+.learn-material a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #9013FEFF;
+}
+
 /*---CONTACT US PAGE---*/
 
-.addmessage-form {
+.addmessage-form, .contact-container {
     backdrop-filter: blur(6px); 
     background-color: rgba(0, 0, 0, 0.86);  
     -webkit-backdrop-filter: blur(6px); 
@@ -348,7 +389,7 @@ aside::-webkit-scrollbar {
     border: none;
     border-radius: 10px;
     padding: 5px;
-    background-color: #E83E3E;
+    background-color: #9013FEFF;
     width: 150px;
     font-family: inherit;
     text-align: center;
@@ -359,37 +400,16 @@ aside::-webkit-scrollbar {
     background-color: #D1AB83;
 }
 
-/*---LEARN PAGES---*/
+.posted-messages {
+    margin: inherit;
+    color: inherit;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(73, 70, 70);
 
-.learnpage-content {
-    margin: 15px 30px 20px 40px;
-    backdrop-filter: blur(6px); 
-    background-color: rgba(0, 0, 0, 0.86);  
-    -webkit-backdrop-filter: blur(6px); 
-    border-radius: 16px;
-    padding: 40px;
-    color: white;
 }
 
-.learn-page section { 
-    margin-bottom: 2.5rem; 
-}
 
-.learn-code { 
-    padding: 1rem; 
-    border-radius: .5rem; 
-    border: 1px solid rgba(127,127,127,.35); 
-    background: rgba(127,127,127,.12); 
-    color: inherit; 
-    overflow-x: auto; 
-}
-
-.learn-material { 
-    height: 100%; 
-    padding: 1rem; 
-    border: 2px dashed rgba(168,85,247,.6); 
-    border-radius: .5rem; 
-}
 
 footer {
     text-align: center;

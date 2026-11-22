@@ -89,12 +89,11 @@ require_once 'includes/learn-helpers.php';
                 <h2 class="fs-5">Learning Materials</h2>
                 <div class="row g-3">
                     <?php
-                    material('video', 'Beginner course');
-                    material('video', 'Quick tutorial');
-                    material('article', 'Official docs (docs.python.org)');
-                    material('article', 'Practice problems');
-                    material('compiler', 'Online compiler');
-                    material('quiz', 'Quizlet flashcards');
+                    material('video', 'Beginner course', 'Ro_MScTDfU4');
+                    material('video', 'Quick tutorial', 'x7X9w_GIm1s');
+                    material('article', 'Official docs (docs.python.org)', 'https://docs.python.org/3/tutorial/');
+                    material('article', 'Practice problems', 'https://www.w3schools.com/python/python_exercises.asp');
+                    material('quiz', 'Quizlet flashcards', 'https://quizlet.com/71389454/match/embed?i=7es5bi&x=1jj1');
                     ?>
                 </div>
             </section>

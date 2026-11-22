@@ -89,12 +89,11 @@
                     <h2 class="fs-5">Learning Materials</h2>
                     <div class="row g-3">
                         <?php
-                        material('video', 'Beginner course');
-                        material('video', 'Pointers explained');
-                        material('article', 'Reference (cppreference C section)');
-                        material('article', 'Practice problems');
-                        material('compiler', 'Online compiler');
-                        material('quiz', 'Quizlet flashcards');
+                        material('video', 'Beginner course', 'xND0t1pr3KY');
+                        material('video', 'Pointers explained', 'DplxIq0mc_Y');
+                        material('article', 'Reference (cppreference C section)', 'https://en.cppreference.com/w/c/language.html');
+                        material('article', 'Practice problems', 'https://www.w3schools.com/c/c_exercises.php');
+                        material('quiz', 'Quizlet flashcards', 'https://quizlet.com/24507717/match/embed?i=7es5bi&x=1jj1');
                         ?>
                     </div>
                 </section>
