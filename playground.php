@@ -5,7 +5,7 @@ include 'includes/head.php';
 
 <body>
 
-    <?php include 'includes/header.php';?><br>
+    <?php include 'includes/header.php';?>
 
     
     <div class="page-container">
@@ -70,7 +70,7 @@ include 'includes/head.php';
                 <h4 class="text-gray fs-6" style="color: gray">Or listen to some of Spotify's curated playlists!</h4><br>
                 <div class="row g-3">
                     <div class="col-12 col-lg-4">
-                        <h5>Today's Top Hits</h5>
+                        <h5 class="text-white">Today's Top Hits</h5>
                         <iframe data-testid="embed-iframe" style="border-radius:12px"
                             src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator"
                             width="100%" height="352" frameBorder="0" allowfullscreen=""
@@ -79,7 +79,7 @@ include 'includes/head.php';
                     </div>
 
                     <div class="col-12 col-lg-4">
-                        <h5>Chill Hits</h5>
+                        <h5 class="text-white">Chill Hits</h5>
                         <iframe data-testid="embed-iframe" style="border-radius:12px"
                             src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4WYpdgoIcn6?utm_source=generator"
                             width="100%" height="352" frameBorder="0" allowfullscreen=""
@@ -88,28 +88,21 @@ include 'includes/head.php';
                     </div>
 
                     <div class="col-12 col-lg-4">
-                        <h5>New Music Friday</h5>
+                        <h5 class="text-white">New Music Friday</h5>
                         <iframe data-testid="embed-iframe" style="border-radius:12px"
                             src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4JAvHpjipBk?utm_source=generator"
                             width="100%" height="352" frameBorder="0" allowfullscreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                             loading="lazy"></iframe>
                     </div>
+                </div>
             </div>
-        </div>
         <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
 
         <br>
-        
-        
-        
-
-    </div>
-
-    
-
-    
-
+        </div>
+    </div><br><br>
+    <?php include 'includes/footer.php';?>
     
 </body>
     

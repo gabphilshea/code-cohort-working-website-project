@@ -5,12 +5,12 @@ include 'includes/head.php';
 
 <body>
 
-    <?php include 'includes/header.php';?><br>
+    <?php include 'includes/header.php';?>
 
 
     <div class="page-container">
-        
-    <?php include 'includes/aside.php';?>
+    
+        <?php include 'includes/aside.php';?>
 
         <section>
             <div id="featureCarousel" class="carousel slide my-4" data-bs-ride="carousel" >
@@ -120,7 +120,8 @@ include 'includes/head.php';
     </div>
     <br><br><br>
     
-    <?php include 'includes/footer.php';?>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include 'includes/footer.php';?>
 </body>
 
