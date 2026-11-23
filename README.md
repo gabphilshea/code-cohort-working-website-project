@@ -31,7 +31,14 @@ Built as the final project for **Plat Tech** at Bicol University.
 Final_Project/
 ├── index.php
 ├── browse.php
-├── tutorials.php
+├── learn.php
+├── learnc.php
+├── learnc++.php
+├── learncsharp.php
+├── learnjava.php
+├── learnmySQL.php
+├── learnphp.php
+├── learnpython.php
 ├── materials.php
 ├── playground.php
 ├── contact.php
@@ -46,7 +53,7 @@ Final_Project/
     └── <your_file>.sql
 ```
 
-Individual language pages (Java, Python, C, C#, C++, PHP, MySQL) are built with the helpers in `learn-helpers.php`.
+`learn.php` is the tutorials hub. It links to the seven language pages (`learnc.php`, `learnc++.php`, `learncsharp.php`, `learnjava.php`, `learnmySQL.php`, `learnphp.php`, `learnpython.php`), which are built with the helpers in `learn-helpers.php`.
 
 ## Getting Started
 
