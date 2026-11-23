@@ -18,7 +18,7 @@ include 'includes/head.php';
             
                     <a href="learnjava.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-java"></i>
+                        <i class="bi bi-cup-hot"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>Java</strong></h4>
                         <h6 class="h6">Object-oriented basics</h6>
@@ -27,7 +27,7 @@ include 'includes/head.php';
 
                     <a href="learnpython.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-py"></i>
+                        <i class="bi bi-code-square"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>Python</strong></h4>
                         <h6 class="h6">Beginner friendly</h6>
@@ -36,7 +36,7 @@ include 'includes/head.php';
 
                     <a href="learnc.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-braces"></i>
+                        <i class="bi bi-terminal"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>C</strong></h4>
                         <h6 class="h6">Core fundamentals</h6>
@@ -45,7 +45,7 @@ include 'includes/head.php';
 
                     <a href="learnc_sharp.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-cs"></i>
+                        <i class="bi bi-hash"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>C#</strong></h4>
                         <h6 class="h6">.NET apps and games</h6>
@@ -54,7 +54,7 @@ include 'includes/head.php';
 
                     <a href="learnc++.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-cpu"></i>
+                        <i class="bi bi-code-slash"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>C++</strong></h4>
                         <h6 class="h6">Systems and speed</h6>
@@ -63,7 +63,7 @@ include 'includes/head.php';
                     
                     <a href="learnphp.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-php"></i>
+                        <i class="bi bi-globe2"></i>
                         <br><br>
                         <h4 style="color: #9013FEFF"><strong>PHP</strong></h4>
                         <h6 class="h6">Server-side web</h6>
@@ -72,7 +72,7 @@ include 'includes/head.php';
 
                     <a href="learnmySQL.php">
                     <div class="lang-selection animated-link">
-                        <i class="bi bi-filetype-database"></i>
+                        <i class="bi bi-server"></i>
                         <br><br>
                          <h4 style="color: #9013FEFF"><strong>MySQL</strong></h4>
                         <h6 class="h6">Queries and tables</h6>

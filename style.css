@@ -367,6 +367,9 @@ aside::-webkit-scrollbar {
     color: white;
     padding: 35px;
     margin: 15px 30px 20px 40px;
+    max-width: 60em;
+    box-sizing: border-box;
+    overflow-wrap: anywhere; 
 }
 
 .name-field {
@@ -374,15 +377,19 @@ aside::-webkit-scrollbar {
     border-radius: 5px;
     padding: 10px;
     font-family: inherit;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .message-field {
     border: none;
     border-radius: 5px;
     padding: 10px;
-    height: 30%;
     width: 70%;
     font-family: inherit;
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
 }
 
 #postmsg-button {
@@ -406,7 +413,14 @@ aside::-webkit-scrollbar {
     padding: 15px;
     border-radius: 10px;
     background-color: rgb(73, 70, 70);
+    box-sizing: border-box;
+}
 
+.posted-messages li {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 
